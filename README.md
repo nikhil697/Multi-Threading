@@ -9,12 +9,11 @@ This project demonstrates the impact of multithreading on the performance of mat
 2. **Multithreaded Matrix Multiplication**: A worker function `multiply_matrices` is defined to perform matrix multiplication. The `run_multithreaded` function creates multiple threads, each responsible for multiplying a subset of the random matrices with the constant matrix. The results are stored in a shared list.
 
 3. **Execution Time Measurement**: The total execution time for each number of threads (from 1 to 8) is recorded by measuring the time before and after calling `run_multithreaded`.
+4. **Result Table**: A table is printed showing the thread names and their corresponding execution times.
 
-4. **CPU Usage Monitoring**: The CPU usage for each number of threads is obtained using the `psutil` library, which provides per-CPU usage information.
+5. **CPU Usage Monitoring**: The CPU usage for each number of threads is obtained using the `psutil` library, which provides per-CPU usage information.
 
-5. **Visualization**: The execution times and CPU usage data are plotted using Matplotlib. The execution time is displayed as a line graph, and the CPU usage is shown as an area plot with shaded regions for each CPU.
-
-6. **Result Table**: A table is printed showing the thread names and their corresponding execution times.
+6. **Visualization**: The execution times and CPU usage data are plotted using Matplotlib. The execution time is displayed as a line graph, and the CPU usage is shown as an area plot with shaded regions for each CPU.
 
 ## Result Table
 
